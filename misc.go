@@ -9,5 +9,7 @@ func getLines(rawInput string) []string {
 		lines = append(lines, v)
 	}
 	
+	lines = lines[:len(lines) - 1]
+	
 	return lines
 }
