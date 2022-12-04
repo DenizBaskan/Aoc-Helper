@@ -11,12 +11,7 @@ if err != nil {
     panic(err)
 }
 	
-/*
-err := sess.InitSession("session here")
-if err != nil {
-    panic(err)
-}
-*/
+// sess.InitSession("session here")
 
 input, err := sess.RetrieveInput(2021, 8)
 if err != nil {
